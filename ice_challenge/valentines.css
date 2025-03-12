@@ -1,0 +1,98 @@
+/* valentines.css */
+
+/* General Reset */
+body, h1, h2, p, ul, li, nav, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6f2;
+    color: #5c0d1f;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  /* Wrapper */
+  #wrapper {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #ff5e99;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #ff85ad;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  nav ul li:hover {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Main Content */
+  main h1 {
+    font-size: 3rem;
+    color: #e6005c;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #ffd6e8;
+  }
+  
+  main img {
+    width: 100%;
+    max-width: 400px;
+    border: 5px solid #ffccd5;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  section {
+    background-color: #ffe6e6;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #cc0052;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff4d94;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  

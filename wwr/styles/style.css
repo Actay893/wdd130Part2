@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #07020d   ;
+    --secondary-color: #e34f74 ;
+    --accent1-color: #fffae3;
+    --accent2-color: #5db7de;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Ubuntu";
+    --paragraph-font: Rubik, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #07020d;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #07020d; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #07020d  ;
+    --nav-link-color: #07020d;
+    --nav-background-color: #e34f74;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #07020d;
+  }
+
+  body{
+    background-color: var(--paragraph-background-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+
+.button-box {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body{
+    background-color: var(--paragraph-background-color);
+    font-family: var(--paragraph-font);
+}
+
+header{
+    background-color: rgba(20, 30, 13, 0.7);
+    height: 115px;
+
+}
+
+.home-title {
+    color: var(--headline-color-on-white);
+    font-family: var(--heading-font);
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h4 {
+    color: gray;
+    font-family: var(--heading-font);
+}
+
+.msg h2 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+
+.msg p{
+    color: var(--paragraph-color-on-color);
+    font-family: var(--paragraph-font);
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+nav a{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    text-align: center;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.book, .join {
+    background-color: lightpink;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; /* Rounded corners*/
+}
+
+.book:hover, .join:hover {
+    background-color: var(--secondary-color);
+}
+
+#background {
+    height: 725px;
+    background-color: var(--secondary-color);
+}
+
+.msg {
+    background-color: #e34f74;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+h2 {
+    margin: 20;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #d9c2a3
+}
+
+.home-title {
+    color: darkblue;
+    font-family: var(--heading-font);
+}
+
+h4 {
+    color: gray;
+    font-family: var(--heading-font);
+}
+
+.msg h2 {
+    color: var(--accent2-color)
+   
+}
+
+h2 {
+    color: var(--accent2-color)
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.msg p {
+    color: black;
+}
+
+.icon {
+    width: 80px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid white;
+}
+
+.rivers-card, .camping-card {
+    margin: 200px 0;
+}
+
+.mountains{
+    margin: 20px
+}
+
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
