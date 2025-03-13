@@ -31,14 +31,21 @@
   } 
   /* Activity 2 styles */ 
   .content2 {
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
     display: grid;
-    justify-content: space-around;
+    grid-template-columns: 50px 150px;
+    grid-template-rows: 50px 150px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
   .red2 {
     width: 100px; 
     height: 100px; 
     background-color: red; 
-    grid-column: 1 / 3;
   } 
   .green2 { 
     width: 100px; 
@@ -54,12 +61,20 @@
     width: 100px; 
     height: 100px; 
     background-color: blue; 
-    grid-column: 1 / 3;
   } 
   /* Activity 3 styles */ 
   .content3 {
-    /* This is the parent of the activity 3 boxes. */
-  }
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   }
   .red3 {
     width: 100px; 
     height: 100px; 
@@ -82,8 +97,16 @@
   } 
   /* Activity 4 styles */ 
   .content4 {
-    /* This is the parent of the activity 4 boxes. */
-    height: 400px;
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 150px 350px;
+    grid-template-rows: 150px 350px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
   .red4 {
     width: 100px; 
