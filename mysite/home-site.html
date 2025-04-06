@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Site Plan</title>
-    <link type="text/css" rel="stylesheet" href="site-plan.css">
-  </head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin's Portfolio</title>
+    <link rel="stylesheet" href="/wdd130Part2/mysite/home-site.css">
+<!-- mm -->
+</head>
 <body>
-
-  <!-- header section -->
-  <header>
-    <h1>Home</h1>
-    <h2>Austin Taylor</h2>
-    <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
-
-    <nav>
-      <a class="nav-item active" href="#">Home</a>
-      <a class="nav-item" href="#">Service</a>
-      <a class="nav-item" href="#">Projects</a>
-      <a class="nav-item" href="#">About</a>
-      <a class="nav-item" href="#">Contacts</a>
-    </nav>
-
-  </header>
-
-  <!-- Hero section -->
-  <section id="hero">
-    <div class="hero-left">
-      <div class="content">
-
-        <h1>Hi, I'm Austin Taylor</h1>
-        <h3>Cyber Security Major</h3>
-        <p>
-            I’m Austin Cole Taylor. I am From Phoenix AZ, however I don’t like the heat. 
+    <div id="content">
+        <header>
+            <a id ="logo_link" href="index.html">
+                <img id="hero-img" src="/wdd130Part2/mysite/images/a_logo.png" alt="People enjoying snow boarding" style="width: 75px; height: auto;">
+            </a>
+            <nav>
+                <a href="/wdd130Part2/mysite/home-site.html">Home</a>
+                <a href="#">Experiences</a>
+                <a href="#">Resume</a>
+                <a href="/wdd130Part2/wwr/contactus.html">Contact Me</a>
+            </nav>
+        </header>
+    <div id="hero">
+    </div>
+    <section id="hero-msg">
+        <img id="hero" src="/wdd130Part2/mysite/images/parting-on-yukon.jpg" alt="Me at Yukon" style="width: 100%; height: auto;">
+        <div id="background"></div>
+        <h1 class="home-title">About me</h1>
+        <h4><p>I’m Austin Cole Taylor. 
+            I am From Phoenix AZ, however I don’t like the heat. 
             I love physical contact sports like M.M.A. and wrestling. 
             I have been practicing since I was 9 years old in Jiu Jitsu and then switched to wrestling when I got into high school. 
             I loved competing in tournaments and getting a good sweat in. 
             I’ve always loved pushing myself and doing hard things which is why I’ve always wanted to pursue a field in STEM, which is why I’m at BYUI pursuing Cyber Security. 
             I’m having a great time currently as I’m learning so much here and can’t wait until I can implement all these things into my day to day life with a Cyber job.
-
+        </p></h4>
+    </section>
+</div>
+<main class="home-grid">
+    <section class="rivers-card">
+        <img class="card-img" src="/wdd130Part2/mysite/images/belize_mewsteez.jpg" alt="river in forest">
+        <h2>Belize</h2>
+    </section>
+    <section class="camping-card">
+        <img class="card-img" src="/wdd130Part2/mysite/images/yukon_me.png" alt="tent in mountains">
+        <h2>Yukon</h2>
+    </section>
+    <section class="rapids-card">
+        <img class="card-img" src="/wdd130Part2/mysite/images/colorful-optical-me.jpg" alt="rafting boat">
+        <h2>Arizona</h2>
+    </section>
+    <div id="background"></div> 
+    <img class="mountains" src="/wdd130Part2/mysite/images/im-on-top-of-world.jpg" alt="Misty mountains">
+    <section class="msg">
+        <h2>My travels</h2>
+        <p>One of my favorite things to do is to travel. 
+            I have been to a couple different places and love to explore countries and see different cultures. 
+            The most notable places I’ve been to are Belize and Canada. 
+            I’ve gotten to see every Mayan ruin in Belize and love the history behind them, and climbing them. 
+            Another thing we normally do is go fishing in Belize, which is great because there are so many different cool fish to catch and they are all so colorful. 
+            I’ve been to Belize about 4 times now and plan to go back again. 
+            I have also been to the Yukon River in Canada and spent about 2 weeks camping and rafting it. I love to travel and can’t wait to go to many more places that I have been wanting to go to for a while.
         </p>
-
-        <div class="cta">
-          <button class="cta-1">Hire Me</button>
-          <button class="cta-2">Contact Me</button>
-        </div>
-
-        <div class="social-icon">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-tiktok"></i>
-        </div>
-
-      </div>
-    </div>
-    <div class="hero-right"></div>
-  </section>
-<!-- CodeGenWeb 2024 -->
+    </section>
+</main>
 </body>
+<footer>
+    <p>Dry Oar &copy; 2025 - Austin Taylor</p>
+    <p><a href="/wdd130Part2/mysite/site-plan.html">Site Plan</a></p>
+    <p><a href="/wdd130Part2/wwr/contactus.html">Contact Me</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target=" blank">
+            <img src="/wdd130Part2/mysite/images/facebook_5968764.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com">
+            <img src="/wdd130Part2/mysite/images/twitter_5969020.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="/wdd130Part2/mysite/images/instagram_2111463.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+    
 
 </html>
