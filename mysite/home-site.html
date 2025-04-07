@@ -6,13 +6,51 @@
     <title>Austin's Portfolio</title>
     <link rel="stylesheet" href="/wdd130Part2/mysite/home-site.css">
 <!-- mm -->
+
+
+
+
+
+
+    <title>Slideshow Example</title>
+    <style>
+        #slideshow {
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin-top: 100px;
+        }
+        .slide {
+            display: none;
+            width: 100%;
+            height: auto;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            margin-top: 100px;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
 </head>
 <body>
     <div id="content">
         <header>
             <a id ="logo_link" href="index.html">
                 <img id="hero-img" src="/wdd130Part2/mysite/images/a_logo.png" alt="People enjoying snow boarding" style="width: 75px; height: auto;">
-            </a>
+           
+
             <nav>
                 <a href="/wdd130Part2/mysite/home-site.html">Home</a>
                 <a href="/wdd130Part2/mysite/experiences.html">Experiences</a>
@@ -22,19 +60,84 @@
         </header>
     <div id="hero">
     </div>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
     <section id="hero-msg">
-        <img id="hero" src="/wdd130Part2/mysite/images/parting-on-yukon.jpg" alt="Me at Yukon" style="width: 100%; height: auto;">
+        <div id="slideshow">
+            <img class="slide active" src="/wdd130Part2/mysite/images/belize-cave1.jpg" alt="Me at Yukon">
+            <img class="slide" src="/wdd130Part2/mysite/images/belize-beach.jpg" alt="Another Image">
+            <img class="slide" src="/wdd130Part2/mysite/images/yukon-scenary.jpg" alt="Yet Another Image">
+        </div>
         <div id="background"></div>
         <h1 class="home-title">About me</h1>
-        <h4><p>I’m Austin Cole Taylor. 
-            I am From Phoenix AZ, however I don’t like the heat. 
-            I love physical contact sports like M.M.A. and wrestling. 
-            I have been practicing since I was 9 years old in Jiu Jitsu and then switched to wrestling when I got into high school. 
-            I loved competing in tournaments and getting a good sweat in. 
-            I’ve always loved pushing myself and doing hard things which is why I’ve always wanted to pursue a field in STEM, which is why I’m at BYUI pursuing Cyber Security. 
-            I’m having a great time currently as I’m learning so much here and can’t wait until I can implement all these things into my day to day life with a Cyber job.
-        </p></h4>
+        <h4>
+            <p>I’m Austin Cole Taylor. 
+                I am From Phoenix AZ, however I don’t like the heat. 
+                I love physical contact sports like M.M.A. and wrestling. 
+                I have been practicing since I was 9 years old in Jiu Jitsu and then switched to wrestling when I got into high school. 
+                I loved competing in tournaments and getting a good sweat in. 
+                I’ve always loved pushing myself and doing hard things which is why I’ve always wanted to pursue a field in STEM, which is why I’m at BYUI pursuing Cyber Security. 
+                I’m having a great time currently as I’m learning so much here and can’t wait until I can implement all these things into my day to day life with a Cyber job.
+            </p>
+        </h4>
     </section>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 <main class="home-grid">
     <section class="rivers-card">
